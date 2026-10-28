@@ -1,0 +1,13 @@
+LAUNCHER TV BOX - como compilar o APK sem Android Studio
+
+1. Cria uma conta gratuita em github.com e entra.
+2. Clica em "+" (canto superior direito) > "New repository". Nome: tv-launcher. Clica em "Create repository".
+3. Na página do repositório, clica em "uploading an existing file".
+4. Descompacta este zip no computador e arrasta TODO o conteúdo da pasta
+   (incluindo a pasta escondida .github) para a página. Clica em "Commit changes".
+   Se a pasta .github não subir, cria o ficheiro manualmente: "Add file" > "Create new file",
+   nome: .github/workflows/build.yml  e cola o conteúdo do ficheiro build.yml deste zip.
+5. Vai ao separador "Actions". Espera 3 a 6 minutos até aparecer um visto verde.
+6. Clica nesse processo e, em "Artifacts", descarrega "launcher-apk" (vem num zip com o app-debug.apk).
+7. Copia o app-debug.apk para uma pen USB e instala na box com um gestor de ficheiros.
+8. Define como launcher padrão com a app Launcher Manager.
